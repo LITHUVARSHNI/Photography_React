@@ -1,0 +1,25 @@
+/* src/containers/PhotoGalleryContainer.css */
+
+.photo-gallery-container {
+    padding: 20px;
+  }
+  
+  .gallery-text {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .gallery-text p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .gallery-text p:first-child {
+    font-style: italic;
+    font-weight: bold;
+  }
+  

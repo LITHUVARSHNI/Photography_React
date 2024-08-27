@@ -1,0 +1,7 @@
+/* src/components/PhotoGallery.css */
+.carousel-item img {
+    max-width: 800px; /* Adjust the width as needed */
+    height: auto;
+    margin: auto;
+  }
+  

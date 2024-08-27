@@ -1,0 +1,45 @@
+/* src/components/Form.css */
+
+.container {
+    margin-top: 50px;
+    max-width: 600px;
+    padding: 20px;
+    background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/20240122103210/12.jpg');
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    color: #fff; /* Text color to stand out against the background */
+  }
+  
+  .form-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+    color: #fff; /* Ensure heading text is visible */
+  }
+  
+  .form-custom .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-custom .form-control {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for readability */
+  }
+  
+  .form-custom .btn-primary {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    padding: 10px 20px;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .form-custom .btn-primary:hover {
+    background-color: #4cae4c;
+    border-color: #398439;
+  }
+  

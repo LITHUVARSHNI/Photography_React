@@ -1,0 +1,51 @@
+/* src/components/Introduction.css */
+
+html, body {
+    margin: 0;
+    height: 100%;
+  }
+  
+  .introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh; /* Ensure the container takes up the full viewport height */
+    padding: 20px;
+    background-color: #f0f0f0; /* Optional: Background color for better visibility */
+    box-sizing: border-box; /* Include padding in the element’s total width and height */
+  }
+  
+  .text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Rounded corners for the image */
+  }
+  
+  .explore-button {
+    background-color: #007bff; /* Primary button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .explore-button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+  }
+  
